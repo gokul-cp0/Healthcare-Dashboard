@@ -1,0 +1,98 @@
+.activity-container {
+    background-color: rgb(229, 237, 248);
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-top: 25px;
+}
+
+.act-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.act-head h5 {
+    color: rgb(52, 66, 145);
+}
+
+.act-head span {
+    font-size: 10px;
+    color: rgb(162, 168, 176);
+}
+
+.act-bars {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 5px;
+}
+
+.activity-bar {
+    width: 3px;
+    height: 100%;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px;
+    margin: 0 4px;
+}
+
+.activity-bar div {
+    border-radius: 20px;
+    position: relative;
+}
+
+.big-gray-bar {
+    width: 100%;
+    height: 100%;
+}
+
+.mid-sky-bar,
+.mid-blue-bar,
+.mid-gray-bar {
+    width: 100%;
+    height: 50%;
+}
+
+.sm-gray-bar,
+.sm-blue-bar {
+    width: 100%;
+    height: 30%;
+    bottom: -24px;
+}
+
+.xsm-gray-bar,
+.xsm-blue-bar,
+.xsm-sky-bar {
+    width: 100%;
+    height: 20%;
+    bottom: -10px;
+}
+
+.big-gray-bar,
+.sm-gray-bar,
+.xsm-gray-bar,
+.mid-gray-bar {
+    background-color: rgb(207, 216, 228);
+}
+
+.mid-sky-bar,
+.xsm-sky-bar {
+    background-color: rgb(3, 224, 240);
+}
+
+.mid-blue-bar,
+.xsm-blue-bar,
+.sm-blue-bar {
+    background-color: rgb(52, 66, 145);
+}
+
+.act-weekdays {
+    color: rgb(142, 153, 167);
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 10px;
+}

@@ -1,0 +1,345 @@
+@media screen and (max-width: 1110px) {
+  .fixed-header {
+    width: 800px;
+    padding: 35px 46px 0;
+  }
+
+  .components {
+    width: 800px;
+    padding: 0 10px 0 0;
+  }
+
+  .header-brand {
+    width: auto;
+  }
+
+  .search-note {
+    width: auto;
+  }
+
+  .header-left {
+    gap: 20px;
+  }
+
+  .sidebar {
+    width: 200px;
+    display: none;
+    background-color: rgb(229, 237, 248);
+    position: absolute;
+    z-index: 4000;
+    padding-left: 50px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+
+  .nav-button,
+  .sidebar-button {
+    display: block;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 5px;
+    color: rgb(38, 49, 109);
+  }
+
+  .status-cards {
+    margin: 0;
+    width: 120px;
+    height: 80px;
+  }
+
+  .card-head .card-icon {
+    font-size: 20px;
+  }
+
+  .human-details {
+    margin-top: 30px;
+  }
+
+  .human-body {
+    margin: 0;
+  }
+
+  .act-bars {
+    height: 80px;
+  }
+
+  .activity-bar {
+    margin: 0 3px;
+  }
+
+  .calendar-days {
+    gap: 2px;
+    padding: 6px 8px;
+  }
+
+  .calendar-days span {
+    padding: 5px 9px;
+  }
+
+  .appCard-head {
+    gap: 10px;
+  }
+
+  .appointment-cards {
+    padding: 10px 14px 13px;
+  }
+
+  .schedule-card-head {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    height: auto;
+  }
+
+  .components {
+    width: 500px;
+    padding: 0;
+    height: auto;
+  }
+
+  .fixed-header {
+    width: 500px;
+    padding: 25px 26px 0;
+  }
+
+  .align-header {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .search-bar {
+    width: 35px;
+    position: relative;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  .search-bar input {
+    display: none;
+    width: 200px;
+    position: absolute;
+    top: 40px;
+    left: -20px;
+    background-color: white;
+    outline: 1px ridge rgba(38, 49, 109, 0.7);
+    border-radius: 10px;
+    padding: 7px 10px;
+  }
+
+  .search-bar .search-bar-icon.one {
+    display: none;
+  }
+
+  .search-bar .search-bar-icon.two {
+    display: block;
+  }
+
+  .sidebar {
+    height: 600px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 20px;
+  }
+
+  .dash-main-content {
+    flex-direction: column;
+  }
+
+  .dash-board,
+  .calendar-view {
+    width: 100%;
+  }
+
+  .activity-container {
+    margin-bottom: 20px;
+  }
+
+  .calendar-view {
+    padding-top: 0 !important;
+    width: 100% !important;
+    padding: 30px 10px;
+    margin-top: 20px;
+  }
+
+  .dash-board {
+    padding: 95px 30px 0;
+  }
+
+  .status-cards {
+    margin: 0;
+    width: 180px;
+    height: 100px;
+  }
+
+  .act-weekdays {
+    padding: 0 10px;
+  }
+
+  .activity-bar {
+    margin: 0 4px;
+  }
+
+  .appointment-cards {
+    padding: 15px 20px;
+  }
+
+  .appCard-head {
+    gap: 40px;
+  }
+
+  .schedule-card {
+    padding: 16px 20px;
+  }
+
+  .schedule-card-head {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .fixed-header {
+    width: 300px;
+    padding: 35px 0px 0;
+  }
+
+  .components {
+    width: 350px;
+  }
+
+  .align-header {
+    padding: 0px 10px;
+    justify-content: space-evenly;
+  }
+
+  .header-brand {
+    font-size: 16px;
+  }
+
+  .header-left {
+    gap: 10px;
+  }
+
+  .profile {
+    gap: 10px;
+  }
+
+  .note-icon,
+  .pfp-pic,
+  .add-button {
+    width: 25px;
+    height: 25px;
+  }
+
+  .note-icon svg,
+  .add-button svg {
+    font-size: 12px;
+  }
+
+  .pfp-pic img {
+    width: 22px;
+  }
+
+  .dash-board {
+    padding: 95px 10px 0;
+  }
+
+  .human-details {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .human-body {
+    width: 250px;
+    height: 370px;
+  }
+
+  .healthy-heart {
+    top: 100px;
+    right: -7px;
+  }
+
+  .healthy-leg {
+    bottom: 120px;
+    left: 6px;
+  }
+
+  .human-parts {
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .status-cards {
+    width: 250px;
+    gap: 10px;
+  }
+
+  .activity-bar {
+    margin: 0 2px;
+  }
+
+  .act-bars {
+    height: 70px;
+    margin-bottom: 5px;
+  }
+
+  .act-weekdays {
+    font-size: 8px;
+  }
+
+  .calendar-view {
+    padding: 30px 0px;
+  }
+
+  .calendar-days {
+    gap: 2px;
+    padding: 6px 7px;
+  }
+
+  .calendar-days span {
+    padding: 4px 7px;
+    font-size: 8px;
+  }
+
+  .appointment-details {
+    padding: 10px;
+  }
+
+  .appointment-cards {
+    padding: 10px 15px;
+    gap: 5px;
+  }
+
+  .appCard-span {
+    font-size: 9px;
+  }
+
+  .appCard-head {
+    gap: 2px;
+  }
+
+  .upcoming-container {
+    padding: 0 !important;
+    margin: 0 10px;
+  }
+
+  .schedule-card-head {
+    gap: 10px;
+  }
+
+  .schedule-card {
+    padding: 10px 15px;
+  }
+}

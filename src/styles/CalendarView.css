@@ -1,0 +1,84 @@
+.month-arrow {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(38, 49, 109);
+  padding: 0 20px 10px;
+}
+
+.arrow-icon-span svg {
+  margin: 0 5px;
+  font-size: 14px;
+}
+
+.calender-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.calendar-days {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 11px;
+  color: rgb(38, 49, 109);
+  border-radius: 10px;
+}
+
+.calendar-days:nth-child(2) {
+  background-color: rgb(220, 231, 245);
+}
+
+.calendar-days h4 {
+  margin-bottom: 5px;
+}
+
+.calendar-days .calendar-weekday {
+  font-weight: 500;
+}
+
+.calendar-days span {
+  font-size: 9px;
+  padding: 5px 10px;
+  border-radius: 7px;
+}
+
+.scheduled {
+  background-color: rgb(38, 49, 109);
+  color: white;
+}
+
+.appointment-details {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  padding: 10px 10px 10px 20px;
+}
+
+.appointment-cards {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(38, 49, 109);
+  padding: 10px 16px 15px;
+  color: white;
+  border-radius: 20px;
+  gap: 3px;
+  letter-spacing: 0.2px;
+}
+
+.appointment-cards:last-child {
+  background-color: rgb(216, 223, 255);
+  color: rgb(38, 49, 109);
+}
+
+.appCard-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 55px;
+}
+
+.appCard-span {
+  font-size: 10px;
+}

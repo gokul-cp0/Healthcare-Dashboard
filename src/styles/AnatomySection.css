@@ -1,0 +1,75 @@
+.human-body {
+  width: 210px;
+  height: 310px;
+  background-color: rgb(229, 237, 248);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+}
+
+.human-body-img {
+  width: 110px;
+}
+
+.scan-img {
+  width: 25px;
+}
+
+.healthy-heart,
+.healthy-leg {
+  position: absolute;
+  display: flex;
+}
+
+.healthy-heart {
+  top: 70px;
+  right: -26px;
+}
+
+.text-heart,
+.text-leg {
+  background-color: rgb(55, 52, 169);
+  color: white;
+  font-size: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  border-radius: 8px;
+  margin: 0 5px;
+}
+
+.anotomy-icon {
+  font-size: 12px;
+  margin-right: 7px;
+  vertical-align: top;
+  color: rgb(30, 196, 30);
+}
+
+.healthy-leg {
+  bottom: 90px;
+  left: -14px;
+}
+
+.text-leg {
+  background-color: rgb(3, 224, 240);
+  color: rgb(55, 52, 169);
+}
+
+.zoom-button {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  color: gray;
+  font-size: 18px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.zoom-button:hover {
+  transform: scale(1.2);
+}
